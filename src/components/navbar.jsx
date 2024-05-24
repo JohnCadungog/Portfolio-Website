@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+
 import logo from '../assets/logojohn.png'; // Adjust the path according to your project structure
 
 function Navbar() {
@@ -17,8 +17,7 @@ function Navbar() {
             <Typography
               variant="h6"
               noWrap
-              component={Link} // Use Link instead of a
-              to="/about" // Define the path to your About component
+             
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -34,8 +33,7 @@ function Navbar() {
             <Typography
               variant="h6"
               noWrap
-              component={Link} // Use Link instead of a
-              to="/skills" // Define the path to your Skills component
+           
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -48,8 +46,7 @@ function Navbar() {
             <Typography
               variant="h6"
               noWrap
-              component={Link} // Use Link instead of a
-              to="/projects" // Define the path to your Projects component
+              
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -62,8 +59,7 @@ function Navbar() {
             <Typography
               variant="h6"
               noWrap
-              component={Link} // Use Link instead of a
-              to="/contacts" // Define the path to your Contacts component
+         
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
